@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a> 
+            <a href="galeria.html">Galeria</a>
+            <a href="tabla.html">Tabla</a>
+            <a href="google.com">Google</a>
+            <a href="lista.html">Listas</a>
+            <a href="formulario.html">Formulario</a>
+        </nav>
+    </header>
+
+    <section>
+        <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br><br>
+            <label for="text">Apellido</label>
+            <input type="text" id="apellido" name="apellido" required>
+            <br><br>
+            <label for="date">Fecha de Nacimiento</label>
+            <input type="date" id="fecnacimiento" name="fecnacimiento" required>
+            <br><br>
+            <label for="number">Edad</label>
+            <input type="number" id="edad" name="edad" required>
+            <br><br>
+            <button type="submit">Registrarse</button>
+            <button type="reset">Borrar</button>
+
+            <p>Genero :</p>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Femenino</label>
+            <input type="radio" id="otro" name="genero" value="otro">
+            <label for="otro">Otro</label>
+
+            <p>Area a desarrollarse :</p>
+            <input type="radio" id="appweb" name="AreaD" value="appweb">
+            <label for="appweb">App Web</label>
+            <input type="radio" id="anad" name="AreaD" value="anad">
+            <label for="anad">Analisis de datos</label>
+            <input type="radio" id="desj" name="AreaD" value="desj">
+            <label for="desj">Desarrollo de juegos</label>
+    
+            <p>Tecnologia :</p>
+            <input type="checkbox" id="HTML" name="tecnologia" value="HTML">
+            <label for="HTML">HTML</label>
+            <input type="checkbox" id="CSS" name="tecnologia" value="CSS">
+            <label for="CSS">CSS</label>
+            <input type="checkbox" id="JS" name="tecnologia" value="JS">
+            <label for="JS">JS</label>
+
+            <br><br>
+            Seleccione navegador
+            <select name="navegador" id="navegador">
+                <option>Chrome</option>
+                <option>Opera</option>
+                <option>Safari</option>
+                <option>Firefox</option>
+                <option>Edge</option>
+            </select>
+
+            <form>
+                <fieldset>
+                 <legend>Datos personales:</legend>
+                 <label for="telefono">Telefono:</label>
+                 <input type="text" id="telefono" name="telefono"><br><br>
+                 <label for="archivo">Archivo:</label>
+                 <input type="text" id="archivo" name="archivo"><br><br>
+                 <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+            
+            <br><br>
+            Consulta: <textarea name="comentario" rows="10" cols="40">Escribe tu consulta...</textarea>
+    
+        
+        </form>
+    </section>
+    
+</body>
+</html>
